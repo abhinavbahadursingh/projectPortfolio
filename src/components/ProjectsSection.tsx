@@ -1,4 +1,4 @@
-import { Sparkles, Code, BrainCircuit, Car, User, Scan, Mail, Volume2, Video, Calendar, Github } from "lucide-react";
+import { Sparkles, Code, BrainCircuit, Car, User, Scan, Mail, Volume2, Video, Calendar, Github, Film } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 
 const projects = [
@@ -7,50 +7,43 @@ const projects = [
     description: "Optimizing urban traffic flow using real-time computer vision and predictive modeling.",
     tags: ["Computer Vision", "YOLO", "Optimization"],
     icon: Car,
-    link: "https://github.com/yourusername/ai-traffic-management",
+    link: "https://github.com/abhinavbahadursingh/trafficPglu",
   },
   {
     title: "Celebrity Look-Alike Finder",
     description: "Deep learning application that matches user photos with celebrity faces using feature embedding.",
     tags: ["Facial Recognition", "Deep Learning", "Siamese Networks"],
     icon: User,
-    link: "https://github.com/yourusername/celebrity-lookalike",
+    link: "https://github.com/abhinavbahadursingh/Which-Celebrity-You-Look-Like",
   },
   {
     title: "Face Recognition Attendance System",
     description: "Automated attendance tracking system with high-accuracy facial identification for institutions.",
     tags: ["OpenCV", "Dlib", "Real-time"],
     icon: Scan,
-    link: "https://github.com/yourusername/face-attendance",
+    link: "https://github.com/abhinavbahadursingh/attendanceManagement",
   },
   {
     title: "Spam Email Classifier",
     description: "Robust NLP model designed to filter and categorize unsolicited emails with high precision.",
     tags: ["NLP", "Scikit-Learn", "Naïve Bayes"],
     icon: Mail,
-    link: "https://github.com/yourusername/spam-classifier",
+    link: "https://github.com/abhinavbahadursingh/msgSpanClassifier-",
   },
   {
-    title: "AI Sound Detection System",
-    description: "Real-time acoustic event detection and classification for security and monitoring.",
-    tags: ["Audio Processing", "CNN", "Spectrograms"],
-    icon: Volume2,
-    link: "https://github.com/yourusername/sound-detection",
+    title: "AI Movie Recommendation System",
+    description: "Personalized movie recommendations using user preferences and similarity algorithms.",
+    tags: ["Machine Learning", "Recommendation System", "Content-Based Filtering"],
+    icon: Film,
+    link: "https://github.com/abhinavbahadursingh/movieRecommendationSystem",
   },
   {
     title: "AI CCTV Accident Detection",
     description: "Automated incident detection system for monitoring road networks and alerting emergency services.",
     tags: ["Anomaly Detection", "Deep Learning", "Video Analytics"],
     icon: Video,
-    link: "https://github.com/yourusername/accident-detection",
-  },
-  {
-    title: "AI Project Planner",
-    description: "Smart task scheduling and resource allocation tool powered by genetic algorithms.",
-    tags: ["Heuristic Search", "Optimization", "Management"],
-    icon: Calendar,
-    link: "https://github.com/yourusername/ai-project-planner",
-  },
+    link: "https://github.com/abhinavbahadursingh/vehicle-crash-detector",
+  }
 ];
 
 const ProjectsSection = () => {
